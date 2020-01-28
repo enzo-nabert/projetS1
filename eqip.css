@@ -1,0 +1,43 @@
+main{
+	text-align:center;
+}
+
+article{
+	background-color: #05378a;
+	margin: 7% auto;
+	padding: 20px 0;
+	border: solid 5px cornflowerblue;
+	border-radius: 36px;
+	max-width: 60em;
+	min-width: 30em;
+}
+
+h1{
+	color: white;
+	text-decoration-line:underline;
+	text-decoration-style: solid;
+	font-size: 220% 
+}
+
+h2{
+	color: white;
+	text-decoration-line:underline;
+	text-decoration-style: dotted;
+}
+
+h3{
+	color: white;
+}
+
+p{
+	color: white;
+	max-width: 45em;
+	margin:auto;
+}
+
+@media(max-width: 640px){
+	article{
+		margin:auto;
+		min-width:23em;
+	}
+}
